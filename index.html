@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Shooting game</title>
+</head>
+<body>
+  <div class="game" >
+        <div class="panel">
+            <img src="assests/rypc_j5bo_160609.jpg" alt="gunman" height="100px" id="first">
+            <img src="assests/rypc_j5bo_160609.jpg" alt="gunman" height="100px" id="second">
+        </div>
+        <div class="center">
+            <button type="button" class="btn btn-danger" id="fire">Start Game!</button>
+            <button type="button" class="btn btn-danger" id="restart" onClick = "document.location.reload(true)">restart</button>
+          </div>
+
+        <div id="result" >
+          <H2></H2>
+        </div>
+        <div class="tab">
+            <table id="table1">
+                <tr >
+                  <th>Round</th>
+                  <th>Player 1</th>
+                  <th>Player 2</th>
+                </tr>
+            </table>
+        </div>
+        <div id="score">
+          <button type="button" class="btn btn-info" id="score1">Player 1 :-</button>
+          <button type="button" class="btn btn-info"id="score2">Player 2 :-</button>
+      </div>
+  
+    </div>
+
+    <!-- <div id="score">
+        <button type="button" class="btn btn-info" id="score1">Player 1 :-</button>
+        <button type="button" class="btn btn-info"id="score2">Player 2 :-</button>
+    </div> -->
+
+    <script src="js/main.js"></script>
+</body>
+</html>

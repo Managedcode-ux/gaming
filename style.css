@@ -1,0 +1,56 @@
+.center {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+  }
+
+.btn-primary{
+    align-items: center;
+}
+
+.gap{
+    margin:0 auto;
+    display:block;
+}
+
+#heading{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5em;
+}
+.panel{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15em;
+  padding-right: 15em;
+}
+#second
+{
+  transform: scaleX(-1);
+}
+
+div.tab{
+  width: 98%;
+  margin: 1%;
+}
+table#table1{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+#score{
+  display: flex;
+  margin-top: 5em;
+  margin-right: 2em;
+  justify-content: space-evenly;
+}
+
+#result{
+/*  display: none; */
+  margin-top: 2em;
+  text-align: center;
+}
+
